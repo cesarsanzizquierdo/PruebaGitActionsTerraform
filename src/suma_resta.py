@@ -14,6 +14,8 @@ class operaciones:
 
     def divide_two_numbers(a: float, b: float) -> float:
         """Divide el primer número entre el segundo."""
+        if a is None or b is None:
+            raise ValueError("Ninguno de los argumentos puede ser None.")
         if b == 0:
             raise ValueError("No se puede dividir entre cero.")
         return a / b
