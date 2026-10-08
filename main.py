@@ -5,11 +5,12 @@ def main():
     resultado_suma = operaciones.sum_two_numbers(10, 5)
     resultado_resta = operaciones.subtract_two_numbers(10, 5)
     resultado_multiplicacion=operaciones.multiply_two_numbers(5,10)
+    resultado_division=operaciones.divide_two_numbers(10,5)
 
     print(f"Suma: {resultado_suma}")
     print(f"Resta: {resultado_resta}")
     print(f"Multiplicacion: {resultado_multiplicacion}")
-
+    print(f"Division: {resultado_division}")
 
 if __name__ == "__main__":
     main()
