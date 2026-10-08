@@ -7,6 +7,10 @@ class operaciones:
     def subtract_two_numbers(a: float, b: float) -> float:
         """Resta el segundo número del primero y devuelve el resultado."""
         return a - b
+    
+    def multiply_two_numbers(a: float, b: float) -> float:
+        """Multiplica dos números y devuelve el resultado."""
+        return a * b
 
 
 
