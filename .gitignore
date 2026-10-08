@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ccache / Pytest / Coverage reports
+.pytest_cache/
+.coverage
+htmlcov/
+*.lprof
+
+# Environments (Entornos virtuales)
+.venv/
+venv/
+ENV/
+env/
+
+# VS Code / IDEs
+.vscode/
+.idea/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
