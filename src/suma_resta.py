@@ -12,6 +12,12 @@ class operaciones:
         """Multiplica dos números y devuelve el resultado."""
         return a * b
 
+    def divide_two_numbers(a: float, b: float) -> float:
+        """Divide el primer número entre el segundo."""
+        if b == 0:
+            raise ValueError("No se puede dividir entre cero.")
+        return a / b
+
 
 
 
